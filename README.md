@@ -1,5 +1,7 @@
 # Sample Node.js Players API (Express)
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+
 A minimal REST API server built with Node.js and Express to manage players.
 
 ## Prerequisites
@@ -13,9 +15,9 @@ A minimal REST API server built with Node.js and Express to manage players.
 ## Choose your setup method
 
 ### A) Use this repository
-1) Clone the repo (replace with your repo URL):
+1)  Clone the repo 
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/IreshSampath/nodejs-players-api
    ```
 2) Open a terminal in the project folder (see “Open a terminal in the folder” below).
 3) Install dependencies:
@@ -136,12 +138,6 @@ Available endpoints:
   POST /api/players
 ```
 
-Optional: add an npm script
-```bash
-npm set-script start "node server.js"
-npm start
-```
-
 ---
 
 ## Test the API
@@ -225,10 +221,14 @@ npm start
 
 ---
 
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
 ## Quick check
 ```bash
 node -v
 npm -v
 ```
-
-If you want, I can also add a badge, a license section, and a start script in package.json via a PR.
